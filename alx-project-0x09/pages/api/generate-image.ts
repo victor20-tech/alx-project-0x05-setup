@@ -1,6 +1,6 @@
 import { HEIGHT, WIDTH } from "@/constants";
 import { RequestProps } from "@/interfaces";
-import { NextApiRequest, NextApiResponse } from "next"
+import { NextApiRequest, NextApiResponse } from "next";
 
 
 const handler = async (request: NextApiRequest, response: NextApiResponse) => {
@@ -43,4 +43,4 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
   }
 }
 
-export default handler
+export default handler;
